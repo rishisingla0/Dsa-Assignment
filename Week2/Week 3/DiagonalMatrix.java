@@ -1,38 +1,32 @@
-package Week2;
-
 import java.util.Scanner;
 
-public class UpperTriangularMatrix {
+public class DiagonalMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter size of matrix: ");
         int n = sc.nextInt();
 
-        int[] upper = new int[n * (n + 1) / 2];
+        int[] diagonal = new int[n];
 
         System.out.println("Enter matrix elements:");
 
-        int index = 0;
-
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-
                 int value = sc.nextInt();
 
-                if (i <= j) {
-                    upper[index] = value;
-                    index++;
+                if (i == j) {
+                    diagonal[i] = value;
                 }
             }
         }
 
-        System.out.println("Stored elements:");
+        System.out.println("Stored diagonal elements:");
 
-        for (int value : upper) {
-            System.out.print(value + " ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(diagonal[i] + " ");
         }
 
         sc.close();
     }
-}
+} 
