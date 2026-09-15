@@ -33,8 +33,10 @@ Topics covered:
 * Counting inversions
 * Counting distinct elements
 
-Assignment 4 — Queues
-Language: Java
+### Assignment 4 — Queues
+
+**Language:** Java
+
 Topics:
 - Simple Queue
 - Circular Queue
