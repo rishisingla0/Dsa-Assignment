@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class InterleaveQueue {
+public class InterLeaveQueue {
 
     public static void main(String[] args) {
 
