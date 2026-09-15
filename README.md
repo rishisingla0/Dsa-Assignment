@@ -33,6 +33,16 @@ Topics covered:
 * Counting inversions
 * Counting distinct elements
 
+Assignment 4 — Queues
+Language: Java
+Topics:
+- Simple Queue
+- Circular Queue
+- Queue Interleaving
+- First Non-Repeating Character
+- Stack Using Two Queues
+- Stack Using One Queue
+
 More lab assignments will be added as they are completed.
 
 ## 💻 Languages Used
