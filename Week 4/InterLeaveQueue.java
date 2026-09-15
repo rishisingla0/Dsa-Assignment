@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 
-public class InterLeaveQueue {
+public class InterleaveQueue {
 
     public static void main(String[] args) {
 
